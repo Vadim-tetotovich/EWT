@@ -7,12 +7,20 @@
 **When? (Когда?)** - с 14:00 до 22:00 происходит регистрация заезда; до 12:00 производится регистрация отъезда; бесплатная отмена бронирования в течение 72 часов.  
 **Where? (Где?)** - можно приобритать данную услугу как на сайте, так и в самом отеле.   
 ### Выявим недостатки схожих приложений:
-#### 1. GudauriLoft
+#### 1. GudauriLoft -- https://gudauriloft.ge/
 Недостатки: 
 - непонятная корзина заказов и непривлекательный дизайн
 ![image](https://user-images.githubusercontent.com/83085936/158769774-42a372b6-3350-43c2-907d-83a064399d98.png)
 - большой footer и маленькая некрасивая карта
 ![image](https://user-images.githubusercontent.com/83085936/158770126-9105c609-4047-4609-b2cd-eb76f48a5921.png)
+#### 2. Glacier -- https://www.uniqhotels.com/hotel-glacier
+Недостатки: 
+- нечитабельный текст
+![image](https://user-images.githubusercontent.com/83085936/158771424-7c52da33-f6e0-4444-87c5-a3d3aa7c8ca9.png)
+- устаревший дизайн корзины
+![image](https://user-images.githubusercontent.com/83085936/158771695-e43280df-d633-4a8b-b90f-53a5f08bc6b8.png)
+#### 3. 
+Недостатки
 ## 2. User stories:
 
 ## 3. Best-At разрабатываемого сайта отеля «Alpine»:  
