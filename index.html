@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <title>Pet Store</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav>
+                <div class="openBurgerMenu">
+                    <span></span>
+                </div>
+                <a class="logo" href="index.html"></a>
+                <ul class="navigation">
+                    <li><a class="navLink" href="html/catalog.html">Catalogue</a></li>
+                    <li><a class="navLink" href="./html/error404.html">Delivery</a></li>
+                    <li><a class="navLink" href="#testimonials">Testimonials</a></li>
+                    <li><a class="navLink" href="#brands">Stores</a></li>
+                </ul>
+                <div class="searchBox">
+                    <div class="searchIcon"></div>
+                    <div class="input">
+                        <input class="search" type="text" placeholder="Search on the site...">
+                    </div>
+                    <span class="clearTextInput"></span>
+                </div>
+                <div class="cart"></div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <div class="welcomeInner">
+                    <div class="burgerMenu">
+                        <ul class="burgerLinks">
+                            <li><a class="burgerLink" href="html/catalog.html">Catalogue</a></li>
+                            <li><a class="burgerLink" href="./html/error404.html">Delivery</a></li>
+                            <li><a class="burgerLink" href="#testimonials">Testimonials</a></li>
+                            <li><a class="burgerLink" href="#brands">Stores</a></li>
+                        </ul>
+                    </div>
+                    <div class="welcomeContent">
+                        <h1 class="welcomeTitle">Welcome to our pet store!</h1>
+                        <p class="welcomeText">Wanna cheer your pet up? We got everything you need!</p>
+                        <img class="welcomeImgAdaptive" src="./images/adaptiveDog.png" alt="dog">
+                        <button class="welcomeBtn">Shop now</button>
+                    </div>
+                    <div class="welcomeContainerImage">
+                        <img src="images/welcomePreview.png" alt="welcomeImage">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalogue">
+            <div class="container">
+                <div class="catalogueInner">
+                    <h2 class="h2TitleAfter">Who’s the lucky pet you’re here for?</h2>
+                    <div class="catalogueContainer">
+                        <div class="firstCatalogueItem catalogItem">
+                            <div class="topItems">
+                                <div class="petItem fishItem">
+                                    <h3 class="textPetItem fishTextItem">Fish</h3>
+                                    <img class="hoverPetItem" src="images/fish1.svg" alt="fish">
+                                </div>
+                                <div class="petItem rabbitItem">
+                                    <h3 class="textPetItem rodentsTextItem">Rodents</h3>
+                                    <img class="hoverPetItem" src="images/rabbit1.svg" alt="rabbit">
+                                </div>
+                            </div>
+                            <div class="bottomItems">
+                                <div class="petItem snakeItem">
+                                    <h3 class="textPetItem raptileTextItem">Raptile</h3>
+                                    <img class="hoverPetItem" src="images/snake1.svg" alt="snake">
+                                </div>
+                                <div class="petItem catItem">
+                                    <h3 class="textPetItem catsTextItem">Cats</h3>
+                                    <img class="hoverPetItem" src="images/cat1.svg" alt="cat">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="secondCatalogueItem catalogItem">
+                            <div class="petItem dogItem">
+                                <h3 class="textPetItem dogTextItem">Dogs</h3>
+                                <img class="hoverPetItem" src="images/dog1.png" alt="dog">
+                            </div>
+                        </div>
+                        <div class="thirdCatalogueItem catalogItem">
+                            <div class="petItem parrotItem">
+                                <h3 class="textPetItem birdsTextItem">Birds</h3>
+                                <img class="hoverPetItem" src="images/parrot1.svg" alt="parrot">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="productsInner">
+                <h2 class="h2TitleBefore">How about our bestsellers?</h2>
+                <div class="backgroundRectangle">
+                    <div class="productsItems">
+                        <div class="arrowLeftSliderProducts"></div>
+                        <div class="productItem">
+                            <img src="images/dogFoodImage.png" alt="dogFoodImage">
+                            <div class="productsContent">
+                                <p class="InStock">In stock</p>
+                                <h3 class="productName">Dog food «‎Delicious»</h3>
+                                <p class="productDescription">High-quality dog food for any...</p>
+                                <div class="productsOrder">
+                                    <p class="productPrice">$ 20</p>
+                                    <p class="minus">-</p>
+                                    <p class="productCount">1</p>
+                                    <p class="plus">+</p>
+                                    <div class="productCart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productItem">
+                            <img src="images/mouseToyImage.png" alt="mouseToyImage">
+                            <div class="productsContent">
+                                <p class="InStock">In stock</p>
+                                <h3 class="productName">Cat toy «‎Mouse» </h3>
+                                <p class="productDescription">Soft and funny cat toy for your..</p>
+                                <div class="productsOrder">
+                                    <p class="productPrice">$ 7</p>
+                                    <p class="minus">-</p>
+                                    <p class="productCount">1</p>
+                                    <p class="plus">+</p>
+                                    <div class="productCart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productItem">
+                            <img src="images/glowingLeash.png" alt="glowingLeash">
+                            <div class="productsContent">
+                                <p class="InStock">In stock</p>
+                                <h3 class="productName">Glowing leash «‎LED»</h3>
+                                <p class="productDescription">Waterproof supply for your p...</p>
+                                <div class="productsOrder">
+                                    <p class="productPrice">$ 13</p>
+                                    <p class="minus">-</p>
+                                    <p class="productCount">1</p>
+                                    <p class="plus">+</p>
+                                    <div class="productCart"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrowRightSliderProducts"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="testimonialsInner">
+                    <h2 class="h2TitleAfter">Look through our clients testimonials:</h2>
+                    <div class="backgroundLine">
+                        <div class="testimonialContent">
+                            <div class="testimonialItem">
+                                <img src="images/JadeImage.png" alt="Jade">
+                                <div class="testimonialTextContent">
+                                    <h4 class="testimonialPersonName">Jade</h4>
+                                    <p class="testimonialText">Friendly and prices are cheaper than big box stores for the same products. Other higher quality products are also available.</p>
+                                </div>
+                            </div>
+                            <div class="footmark"></div>
+                        </div>
+                        <div class="testimonialContent">
+                            <div class="footmark"></div>
+                            <div class="testimonialItem">
+                                <img src="images/SandraImage.png" alt="Sandra">
+                                <div class="testimonialTextContent">
+                                    <h4 class="testimonialPersonName">Sandra</h4>
+                                    <p class="testimonialText">Lower prices on just about everything my local pet shop sells. I now buy all my dog treats and toys online. Shipping is cheap and they have a friendly staff when you call in. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonialContent">
+                            <div class="testimonialItem">
+                                <img src="images/RyanImage.png" alt="Ryan">
+                                <div class="testimonialTextContent">
+                                    <h4 class="testimonialPersonName">Ryan</h4>
+                                    <p class="testimonialText">Excellent service with owners and staff who are prepared to “go the extra mile”. Dougall loves his new food and delicious treats. Would highly recommend you. </p>
+                                </div>
+                            </div>
+                            <div class="footmark thirdChild"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands" id="brands">
+            <div class="brandsInner">
+                <div class="container"></div>
+                <h2 class="h2TitleBefore">Check out our best brands:</h2>
+                <div class="brandsItems">
+                    <div class="arrowLeftSliderBrands"></div>
+                    <a class="brandItem RoyalCanin" href="https://www.royalcanin.com/us" target="_blank"></a>
+                    <a class="brandItem Kiteket" href="https://www.kitekat.com/" target="_blank"></a>
+                    <a class="brandItem Hills" href="https://www.hillspet.by/" target="_blank"></a>
+                    <a class="brandItem FancyPets" href="https://feistypets.com/" target="_blank"></a>
+                    <a class="brandItem Premil" href="https://www.premil.rs/ru" target="_blank"></a>
+                    <a class="brandItem Friskies" href="https://www.purina.com/friskies" target="_blank"></a>
+                    <div class="arrowRightSliderBrands"></div>
+                </div>
+            </div>
+            <div class="backgroundRectangleSale">
+                <div class="saleItems">
+                    <img src="images/saleCat.svg" alt="Cat">
+                    <div class="saleContent">
+                        <h3 class="saleTitle">Big sale!</h3>
+                        <p class="saleText">15% discount on cat supplies!</p>
+                        <button class="saleBtn">Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pickUs">
+            <div class="pickUsInner">
+                <h2 class="h2TitleAfter">Pick us!</h2>
+                <div class="pickUsItems">
+                    <div class="pickUsItem heart">
+                        <div class="pickUsItemContent">
+                            <img src="icons/heart.svg" alt="heart">
+                            <div class="pickUsItemText">Value and<br> appreciate every<br> client</div>
+                        </div>
+                    </div>
+                    <div class="pickUsItem like">
+                        <img src="icons/like.svg" alt="like">
+                        <div class="pickUsItemText">Deliver only<br> high-quality<br> goods</div>
+                    </div>
+                    <div class="pickUsItem handCart">
+                        <img src="icons/handCart.svg" alt="cart">
+                        <div class="pickUsItemText">Provide best<br> shopping<br> conditions</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <div class="footerContent">
+            <ul class="footerNavigation">
+                <li>
+                    <a href="html/catalog.html">Catalog</a>
+                </li>
+                <li>
+                    <a href="">Delivery</a>
+                </li>
+                <li>
+                    <a href="#testimonials">Testimonials</a>
+                </li>
+                <li>
+                    <a href="#brands">Stores</a>
+                </li>
+            </ul>
+            <div class="footerEmail">
+                <p class="footerEmailText">Sign up for emails<br> Receive our latest news and offers!</p>
+                <div class="searchBoxFooter">
+                    <div class="footerInput">
+                        <input class="inputEmail" type="text" placeholder="Enter your email...">
+                    </div>
+                    <span class="mailIcon"></span>
+                </div>
+            </div>
+            <div class="footerSocialLink">
+                <p class="footerSocialLinkText">Connect us!</p>
+                <ul class="linksItems">
+                    <a class="linkItem instagram" href="https://www.instagram.com/accounts/login/?next=/yulka_nay/" target="_blank"></a>
+                    <a class="linkItem facebook" href="https://www.facebook.com/people/Санаторий-Сосны/100075838830344/" target="_blank"></a>
+                    <a class="linkItem vk" href="https://vk.com/ylodis" target="_blank"></a>
+                </ul>
+            </div>
+            <div class="phoneContext">
+                <p class="phoneText">If you have any<br> questions, call us:</p>
+                <p class="phoneNumber">+375-33-647-67-85</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

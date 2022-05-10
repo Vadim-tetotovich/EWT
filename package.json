@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "dependencies": {
+        "bower": "^1.8.14",
+        "express": "^4.18.1",
+        "fs": "^0.0.1-security",
+        "html-builder": "^0.2.31",
+        "js-sha3": "^0.8.0",
+        "node-dir": "^0.1.17"
+    }
+}

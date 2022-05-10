@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/error404.css">
+    <link rel="stylesheet" href="../css/error404_adaptive.css">
+    <title>404</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="container404Inner">
+                <h2 class="text">Oops!...</h2>
+                <img class="image404" src="../images/404.png" alt="img">
+                <h2 class="text">Page is not found.</h2>
+                <button class="btnBackToMainPage" href="../index.html">Back to main page</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const btn404 = document.querySelector('.btnBackToMainPage')
+        btn404.addEventListener('click', () => {
+            window.location = '../index.html'
+        })
+    </script>
+</body>
+
+</html>

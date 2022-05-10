@@ -1,0 +1,319 @@
+@media (max-width:376px) {
+    header {
+        height: 136px;
+    }
+    .container {
+        max-width: 376px;
+        padding: 0 16px;
+    }
+    nav {
+        gap: 20px;
+    }
+    .navigation {
+        display: none;
+    }
+    .openBurgerMenu {
+        display: block;
+    }
+    .input {
+        /* left: 0; */
+    }
+    .cart {}
+    .searchBox {
+        width: 100%;
+        order: 1;
+    }
+    .welcome {
+        height: 450px;
+    }
+    .welcomeContent {
+        text-align: center;
+        position: relative;
+    }
+    .welcomeTitle {
+        text-align: center;
+        width: 320px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 114.6%;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .welcomeText {
+        display: none;
+    }
+    .welcomeContainerImage {
+        display: none;
+    }
+    .welcomeImgAdaptive {
+        width: 100%;
+        display: block;
+        margin-bottom: -20px;
+        z-index: -1;
+    }
+    .welcomeBtn {
+        width: 240px;
+        height: 64px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 135%;
+        z-index: 5;
+        overflow: hidden;
+    }
+    .catalogue {
+        /* height: 1000px; */
+    }
+    .catalogueInner {
+        padding-bottom: 20px;
+    }
+    .h2TitleAfter,
+    .h2TitleBefore {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .h2TitleAfter::after,
+    .h2TitleBefore::before {
+        display: none;
+    }
+    .catalogueContainer {
+        margin-top: 50px;
+        gap: 15px;
+    }
+    .fishTextItem {
+        font-size: 22px;
+        top: 38%;
+        left: 24%;
+    }
+    .rodentsTextItem {
+        font-size: 24px;
+        top: 38%;
+        left: 25%;
+    }
+    .raptileTextItem {
+        font-size: 24px;
+        top: 37%;
+        left: 29%;
+    }
+    .catsTextItem {
+        font-size: 22px;
+        top: 36%;
+        left: 20%;
+    }
+    .dogTextItem {
+        font-size: 54px;
+        top: 41%;
+        left: 18%;
+    }
+    .birdsTextItem {
+        font-size: 25px;
+        top: 44%;
+        left: 17%;
+    }
+    .fishItem,
+    .catItem {
+        width: 105px;
+        height: 110px;
+        border-radius: 20px;
+        border: 8px solid var(--blue-color);
+    }
+    .rabbitItem,
+    .snakeItem {
+        width: 224px;
+        height: 110px;
+        border-radius: 20px;
+        box-shadow: inset -5.35928px 5.35928px 7.14571px rgba(255, 255, 255, 0.25);
+        background: var(--blue-color);
+    }
+    .dogItem {
+        width: 224px;
+        height: 233px;
+        border-radius: 20px;
+        box-shadow: inset -5.35928px 5.35928px 7.14571px rgba(255, 255, 255, 0.25);
+        background: var(--blue-color);
+    }
+    .parrotItem {
+        width: 105px;
+        height: 233px;
+        border-radius: 20px;
+        border: 8px solid var(--blue-color);
+    }
+    .fishItem img {
+        width: 100px;
+        margin-top: -18px;
+    }
+    .rabbitItem img {
+        width: 225px;
+        margin-top: -30px;
+    }
+    .snakeItem img {
+        width: 225px;
+        margin-top: -20px;
+    }
+    .catItem img {
+        width: 100px;
+        margin-top: -20px;
+    }
+    .parrotItem img {
+        width: 100px;
+        margin-left: -10px;
+        margin-top: -22px;
+    }
+    .dogItem img {
+        width: 224px;
+    }
+    .topItems,
+    .bottomItems {
+        gap: 14px;
+    }
+    .firstCatalogueItem {
+        order: 3;
+    }
+    .secondCatalogueItem {
+        width: 224px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .thirdCatalogueItem {
+        width: 105px;
+        order: 2;
+    }
+    .productsInner {
+        padding-bottom: 0;
+    }
+    .productsItems {
+        justify-content: center;
+        gap: 10px;
+    }
+    .productItem:nth-child(2),
+    .productItem:nth-child(3) {
+        display: none;
+    }
+    .testimonialsInner {
+        padding-top: 20px;
+    }
+    .backgroundLine {
+        background: #fff;
+    }
+    .testimonialContent {
+        margin: 0;
+        padding: 0;
+    }
+    .testimonialContent:first-child {
+        margin: 0;
+        padding: 0;
+    }
+    .footmark {
+        display: none;
+    }
+    .testimonialItem {
+        height: 83px;
+        border-radius: 20px;
+        padding: 15px 12px;
+        overflow: hidden;
+    }
+    .testimonialPersonName {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 135%;
+        margin-bottom: 4px;
+    }
+    .testimonialText {
+        overflow: hidden;
+        height: 35px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .testimonialContent:nth-child(2) {
+        padding: 24px 0;
+    }
+    .testimonialContent:nth-child(3) {
+        padding: 0;
+    }
+    .backgroundLine {
+        height: 400px;
+    }
+    .brandsInner {
+        padding-top: 0;
+    }
+    .testimonialsInner {
+        padding-bottom: 0;
+    }
+    .brandsItems {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .brandItem {
+        width: 128px;
+        height: 64px;
+        background-size: contain;
+    }
+    .Hills,
+    .FancyPets,
+    .Premil,
+    .Friskies {
+        display: none;
+    }
+    .saleContent {
+        order: -1;
+    }
+    .saleTitle {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 114.6%;
+    }
+    .saleItems {
+        text-align: center;
+        justify-content: center;
+    }
+    .saleItems img {
+        width: 211px;
+        height: 217px;
+        margin-right: 0;
+        margin-top: -360px;
+    }
+    .saleText {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 16px;
+        margin-bottom: 220px;
+    }
+    .saleBtn {
+        width: 240px;
+        height: 64px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 135%;
+    }
+    .backgroundRectangleSale {
+        margin: 0;
+        height: 570px;
+    }
+    .pickUs,
+    .waves,
+    .footerNavigation,
+    .footerSocialLinkText {
+        display: none;
+    }
+    footer {
+        background: #fff;
+        height: 400px;
+    }
+    .footerContent {
+        text-align: center;
+        justify-content: center;
+    }
+    .footerEmail {
+        margin-top: 20px;
+    }
+    .footerSocialLink {
+        margin-left: 0;
+        order: 1;
+        margin-bottom: 10px;
+    }
+    .phoneContext {
+        margin: 0;
+    }
+}

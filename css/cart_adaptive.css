@@ -1,0 +1,57 @@
+@media (max-width:376px) {
+    header {
+        height: 136px;
+    }
+    .container {
+        max-width: 376px;
+        padding: 0 16px;
+    }
+    .navigation {
+        display: none;
+    }
+    .searchBox {
+        width: 100%;
+        order: 1;
+    }
+    .openBurgerMenu {
+        display: block;
+    }
+    nav {
+        gap: 20px;
+    }
+    .rectangleCart {
+        margin-top: 20px;
+    }
+    .cartH2 {
+        margin-bottom: 30px;
+    }
+    .cartEmpty {
+        height: 300px;
+        padding-top: 20px;
+    }
+    .pickUs,
+    .waves,
+    .footerNavigation,
+    .footerSocialLinkText {
+        display: none;
+    }
+    footer {
+        background: #fff;
+        height: 400px;
+    }
+    .footerContent {
+        text-align: center;
+        justify-content: center;
+    }
+    .footerEmail {
+        margin-top: 20px;
+    }
+    .footerSocialLink {
+        margin-left: 0;
+        order: 1;
+        margin-bottom: 10px;
+    }
+    .phoneContext {
+        margin: 0;
+    }
+}
